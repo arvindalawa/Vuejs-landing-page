@@ -80,7 +80,7 @@ const iconMap: Record<
         </p>
       </div>
 
-      <div class="grid lg:grid-cols-2 gap-4 w-full">
+      <div class="grid lg:grid-cols-2 gap-4 w-full p-4">
         <Card
           v-for="({ icon, title, description }, index) in benefitList"
           :key="title"

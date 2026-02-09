@@ -69,6 +69,7 @@ const serviceList: ServiceProps[] = [
       <div
         v-for="{ title, description, pro } in serviceList"
         :key="title"
+        class="p-4"
       >
         <Card class="bg-muted/60 dark:bg-card h-full relative">
           <CardHeader>

@@ -98,7 +98,7 @@ const iconMap: Record<
       facere tenetur.
     </h3>
 
-    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
       <div
         v-for="{ icon, title, description } in featureList"
         :key="title"
